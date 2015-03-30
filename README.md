@@ -48,14 +48,6 @@ iOS 开发在上手时可能会有些令人生畏。无论是 Objective-C 还是
 * 开发迭代会更快，因为不需要 build 工程就能预览到做出的改动。
 * 在 Xcode 6 中，在 Storyboard 里终于能看到自定义的字体和 UI 控件样式了。这让你在设计时能更好地了解界面的最终外观。
 * 从 iOS 8 开始，你可以用 Size Classes 来设计同时支持各种屏幕尺寸的界面，省去了很多重复工作。
-***
-* For the less technically inclined, Storyboards can be a great way to contribute to the project directly, e.g. by tweaking colors or layout constraints. However, this requires a working project setup and some time to learn the basics.
-* Iteration is often faster since you can preview certain changes without building the project.
-
- * In Xcode 6, custom fonts and UI elements are finally represented visually in Storyboards, giving you a much better idea of the final appearance while designing.
- * Starting with iOS 8, [Size Classes][size-classes] allow you to design for different device types and screens without duplication.
-
-
 
 [size-classes]: http://blog.futurice.com/adaptive-view-ios8
 
@@ -75,8 +67,6 @@ iOS 开发在上手时可能会有些令人生畏。无论是 Objective-C 还是
 如果你准备在工程里引入外部依赖（例如第三方库），[CocoaPods][cocoapods]提供了快速而便捷的集成方法。安装方法如下：
 
     sudo gem install cocoapods
-
-To get started, move inside your iOS project folder and run
 
 开始的第一步是进入你的工程目录，然后运行
 
@@ -143,7 +133,6 @@ App 发布的时候把 release 代码从原有的分支上隔离出来，并且�
 
 [gitflow-github]: https://github.com/nvie/gitflow
 
-## Common Libraries
 
 ## 常用的库
 
